@@ -153,7 +153,7 @@ export function PatientRegistrationForm() {
                 id="fullName"
                 name="fullName"
                 autoComplete="name"
-                placeholder="Jane Doe"
+                placeholder="Wanjiku Kamau"
                 required
                 value={values.fullName}
                 onChange={(e) => update("fullName", e.target.value)}
@@ -217,7 +217,7 @@ export function PatientRegistrationForm() {
                 name="phone"
                 type="tel"
                 autoComplete="tel"
-                placeholder="(555) 123-4567"
+                placeholder="0712 345 678"
                 required
                 value={values.phone}
                 onChange={(e) => update("phone", e.target.value)}
@@ -229,7 +229,7 @@ export function PatientRegistrationForm() {
                 name="email"
                 type="email"
                 autoComplete="email"
-                placeholder="jane@example.com"
+                placeholder="wanjiku@example.co.ke"
                 required
                 value={values.email}
                 onChange={(e) => update("email", e.target.value)}
@@ -240,7 +240,7 @@ export function PatientRegistrationForm() {
                 id="address"
                 name="address"
                 autoComplete="street-address"
-                placeholder="123 Main St, Apt 4B, Springfield, ST 00000"
+                placeholder="P.O. Box 123, Kabarnet Road, Eldama Ravine, Baringo County"
                 required
                 value={values.address}
                 onChange={(e) => update("address", e.target.value)}
@@ -259,7 +259,7 @@ export function PatientRegistrationForm() {
               <Input
                 id="emergencyName"
                 name="emergencyName"
-                placeholder="John Doe"
+                placeholder="Otieno Odhiambo"
                 required
                 value={values.emergencyName}
                 onChange={(e) => update("emergencyName", e.target.value)}
@@ -280,7 +280,7 @@ export function PatientRegistrationForm() {
                 id="emergencyPhone"
                 name="emergencyPhone"
                 type="tel"
-                placeholder="(555) 987-6543"
+                placeholder="0722 987 654"
                 required
                 value={values.emergencyPhone}
                 onChange={(e) => update("emergencyPhone", e.target.value)}
@@ -325,7 +325,7 @@ export function PatientRegistrationForm() {
               <Input
                 id="insuranceProvider"
                 name="insuranceProvider"
-                placeholder="e.g. Blue Cross, Aetna, self-pay"
+                placeholder="e.g. NHIF, Jubilee, AAR, Britam, self-pay"
                 value={values.insuranceProvider}
                 onChange={(e) => update("insuranceProvider", e.target.value)}
               />
