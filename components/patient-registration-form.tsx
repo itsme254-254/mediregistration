@@ -132,7 +132,7 @@ export function PatientRegistrationForm() {
       {/* Blue header */}
       <header className="bg-primary px-6 py-7 text-primary-foreground sm:px-8">
         <p className="text-xs font-medium uppercase tracking-wide text-primary-foreground/80">
-          Northside Family Clinic
+          Eldama Ravine Hospital
         </p>
         <h1 className="mt-1 text-balance text-2xl font-semibold">Patient Registration</h1>
         <p className="mt-1 max-w-prose text-sm text-primary-foreground/90">

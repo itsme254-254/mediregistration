@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Patient Registration | Clinic',
-  description: 'Register as a new patient at our clinic. Provide your personal, contact, emergency, and medical information.',
+  title: 'Patient Registration | Eldama Ravine Hospital',
+  description: 'Register as a new patient at Eldama Ravine Hospital. Provide your personal, contact, emergency, and medical information.',
   generator: 'v0.app',
   icons: {
     icon: [
